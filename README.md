@@ -8,12 +8,10 @@ AI tool to help monitor &amp; troubleshoot various network domains and topologie
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+The problem is that network engineers get same question on weekly basis that what could be the problem that connection is not working. The situation might be different in network operation centers where they have state-of-art network monitoring tools & solution. But in many smaller companies or teams the only way to troubleshoot the issue is to check current network element configurations and status.
+The actual information is availabe but can't be accessed by normal users. Due that network elements account policies (restricted access for limited engineers).
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+If all this time that is spent by network engineer to get data from network, that could be utilized by machine learning AI - tool (or chatbot), it would eventually leave time for more important issues like network planning, optimatization and overall network performance increase. On top of that the problems are almost are identical so it will make the network engineer daily work tasks more interresting which is my personal motivation to use AI solution.
 
 
 ## How is it used?
