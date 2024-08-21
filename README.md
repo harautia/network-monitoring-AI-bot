@@ -8,41 +8,17 @@ AI tool to help monitor &amp; troubleshoot various network domains and topologie
 
 ## Background
 
-The problem is that network engineers get same question on weekly basis that what could be the problem that connection is not working. The situation might be different in network operation centers where they have state-of-art network monitoring tools & solution. But in many smaller companies or teams the only way to troubleshoot the issue is to check current network element configurations and status.
-The actual information is availabe but can't be accessed by normal users. Due that network elements account policies (restricted access for limited engineers).
+The problem is that network engineers get same question on weekly basis that what could be the problem when connection is not working. The situation might be different in network operation centers where they have state-of-the-art network monitoring tools & solution. But in many smaller companies or teams the only way to troubleshoot the issue is to check current network element configurations and routing status from the routers or switches by network engineer. So the information that is needed to solve the issue is availabe but can't be accessed by normal users. Due that network elements account policies (restricted access for network engineers).
 
-If all this time that is spent by network engineer to get data from network, that could be utilized by machine learning AI - tool (or chatbot), it would eventually leave time for more important issues like network planning, optimatization and overall network performance increase. On top of that the problems are almost are identical so it will make the network engineer daily work tasks more interresting which is my personal motivation to use AI solution.
-
+If all this time that is spent by network engineer to get data from network, that could be utilized by machine learning AI - tool (or chatbot), it would eventually leave time for more important issues like network planning, optimatization and better network performance. On top of that the problems are almost are identical so it will make the network engineer daily work tasks more interresting which is my personal motivation to use AI solution.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+It would require that different data sources are collected to single location which the AI tool will operate. Datastores are: network element configuration, status information and IP address management.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+It would be machine learning based solution because the source data is 100% accurate, since it represent the actual state of the network. The use of AI is to identify possible solutions to solve the network issue. The AI tool should provide the corrective solution eg. replace fiber cable if that is broken, configuration change if the issue is there and if it can't solve the issue it should instruct the user to provide more detailed information.
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+Later phahes the tool could be able to predict for example soon to be breaking connections, if it has learned pattern from logs or statistics when connection has broken. Other import future task would be providing input to the network planning and solutions how to improve network resilience and performance.
 
 ## Data sources and AI methods
 Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
