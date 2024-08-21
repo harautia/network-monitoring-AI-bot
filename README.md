@@ -28,7 +28,6 @@ It doesn't try to solve whole network monitoring area but will be addition to cu
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
 At the first phase I'd need understanding how to map existing data to such format that AI solution can read it. After this is done the AI logic should be build and in this phase not sure how this is done. Some neural network, SLM (small language model) with own prorieraty data injected to it or something else  
 
 ## Acknowledgments
